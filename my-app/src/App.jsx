@@ -20,7 +20,7 @@ import Contact from "./components/Contact";
 import Team from "./components/Team";
 import OurServices from "./components/OurServices";
 import Grid from "./components/Grid";
-import TourClassic from "./components/TourClassic";
+import TourClassic from "./components/Tourclassic";
 import Blog from "./components/Blog";
 import TourSearch from "./components/TourSearch";
 import Roomlist from "./components/Roomlist";
