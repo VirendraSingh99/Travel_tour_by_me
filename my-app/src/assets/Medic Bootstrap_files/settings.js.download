@@ -1,0 +1,12 @@
+(function() {
+    const partnerObject = window.__partnerObject || "po";
+    const po = window[partnerObject] || (() => po);
+    po('settings', 'host', 'https://app.partnero.com/pub/v1');
+    po('program', 'KHCFMOYH', 'type', 'affiliate');
+    po('program', 'KHCFMOYH', 'settings', 'cookie_time', 30);
+    po('program', 'KHCFMOYH', 'settings', 'url_format', 'query');
+    po('program', 'KHCFMOYH', 'settings', 'link_param', 'aff');
+    po('program', 'KHCFMOYH', 'settings', 'query_param', 'aff');
+    po('program', 'KHCFMOYH', 'settings', 'simple_tracking_enabled', '');
+    po('program', 'KHCFMOYH', 'settings', 'block_signups_from_paid_advertisement', '1');
+})();
